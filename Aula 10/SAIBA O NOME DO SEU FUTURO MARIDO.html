@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE DE NOME DE MARIDO</title>
+    <style>
+        body {
+            background-color: red;
+            font: normal 30px Arial;
+
+        }
+        input {
+            font: normal 25px Arial;
+            width: 200px;
+
+        }
+        div#res {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Como seria o nome do seu marido...</h1>
+    <input type="text" name="1nome" id="1nome"> +
+    <input type="text" name="2nome" id="2nome">
+    <input type="button" value="Juntar nomes" onclick=Juntar()> 
+    <div id="res">O nome completo dele será:</div>
+
+    <script>
+        function Juntar() {
+            var nome1 = document.getElementById("1nome")
+            var nome2 = document.getElementById("2nome")
+            var res = document.getElementById("res")
+            var n1 = (nome1.value)
+            var n2 = (nome2.value)
+            var s = n1
+            var x = n2
+            res.innerHTML = `O primeiro nome dele ${n1} mais o seu segundo nome ${n2}
+             forma... <strong>${s} ${x}, TCHARAAAAAMMM ESSE E O NOME DO SEU MARIDO NO FUTURO!!</strong>`
+
+
+        }
+    </script>
+
+</body>
+</html>
