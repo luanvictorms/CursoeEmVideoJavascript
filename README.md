@@ -1,6 +1,6 @@
 # # Curso em video Javascript
 
-![GitHub repo size](https://img.shields.io/github/repo-size/luanvictorms/README-template?CursoeEmVideoJavascript)
+![GitHub repo size](https://img.shields.io/github/repo-size/luanvictorms/README.md?CursoeEmVideoJavascript)
 ![GitHub language count](https://img.shields.io/github/languages/count/luanvictorms/README-template?CursoeEmVideoJavascript)
 ![GitHub forks](https://img.shields.io/github/forks/luanvictorms/README-template?CursoeEmVideoJavascript)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/luanvictorms/README-template?CursoeEmVideoJavascript)
